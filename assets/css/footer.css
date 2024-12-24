@@ -1,0 +1,238 @@
+.footer {
+    background: #fff;
+}
+
+.footer__top-content {
+    display: flex;
+    padding-top: 32px;
+    margin-bottom: 54px;
+}
+
+.footer__links {
+    height: fit-content;
+    border-left: 1px solid #E6E7EB;
+}
+
+.footer__list {
+    display: flex;
+    gap: 36px;
+    width: 100%;
+}
+
+.footer-menu {
+    max-width: 303px;
+    flex: 33%;
+}
+
+.footer-menu__title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.footer-menu__list {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #484A4D;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links-contacts {
+    padding-top: 47px;
+    padding-left: 36px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-tel {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-tel__title {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #760135;
+}
+
+.footer-tel__description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #BABCC2;
+    margin-top: 8px;
+}
+
+.footer__socials {
+    padding-left: 36px;
+    display: flex;
+    gap: 16px;
+    padding-bottom: 47px;
+    padding-top: 24px;
+}
+
+.socials-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    background: #E6E7EB;
+    border-radius: 9px;
+}
+
+.footer__additional-links {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #7E7F85;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+
+    padding-bottom: 17px;
+}
+
+.footer__description {
+    padding-top: 16px;
+    border-top: 1px solid #E6E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+
+.footer__copyright {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #606266;
+}
+
+.footer__dev {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #606266;
+}
+
+.footer__submenu {
+    display: none;
+}
+
+.footer__dev a {
+    color: #009EE2;
+}
+
+@media (max-width: 1000px) {
+    .footer__top-content {
+        padding-top: 24px;
+        margin-bottom: 36px;
+        flex-direction: column-reverse;
+    }
+
+    .footer__links {
+        border: none;
+        display: flex;
+        align-items: center;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E6E7EB;
+        margin-bottom: 24px;
+    }
+
+    .footer__links-contacts {
+        flex-direction: row;
+        padding: 0;
+        gap: 35px;
+    }
+
+    .footer__socials {
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    .footer__list {
+        gap: 16px;
+    }
+
+    .footer__additional-links, .footer__description {
+        padding-bottom: 24px;
+    }
+
+    .footer__description {
+        padding-top: 24px;
+    }
+
+    .footer-menu:first-child {
+        max-width: 171px;
+    }
+}
+
+@media (max-width: 620px) { 
+    .footer__top-content {
+        margin-bottom: 0;
+    }
+
+    .footer__list {
+        display: none;
+    }
+
+    .footer__links, .footer__links-contacts {
+        flex-direction: column;
+    }
+
+    .footer__links-contacts {
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    .footer__socials {
+        padding-left: 0;
+    }
+
+    .footer__additional-links {
+        display: none;
+    }
+
+    .footer__description {
+        border: none;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer__submenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .submenu__top-item {
+        background: #FFFFFF;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 22.1px;
+    }
+
+    .submenu__wrapper {
+        padding: 16px 0;
+        border-bottom: 1px solid #E6E7EB;
+    }
+
+    .submenu__wrapper:first-child {
+        padding-top: 0;
+    }
+}

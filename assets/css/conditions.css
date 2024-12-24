@@ -1,0 +1,103 @@
+.conditions {
+    margin-bottom: 109px;
+}
+
+.conditions__wrapper {
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+}
+
+.conditions__title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #760135;
+}
+
+.conditions__list {
+    margin: 24px 0;
+}
+
+.conditions-item {
+    display: grid;
+    grid-template-columns: 357px 1fr;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #E0E1E6;
+}
+
+.conditions-item:first-child {
+    border: none;
+    padding-top: 0;
+}
+
+.conditions-item__title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.conditions-item__value {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.conditions__more-link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #760135;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-self: flex-end;
+}
+
+.conditions__more-link::after {
+    content: url(/assets/img/icons/Arrow-right-purple.svg);
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 1000px) {
+    .conditions {
+        margin-bottom: 73px;
+    }
+}
+
+@media (max-width: 620px) {
+    .conditions {
+        margin-bottom: 81px;
+    }
+
+    .conditions__wrapper {
+        padding: 24px;
+        padding-left: 13px;
+    }
+
+    .conditions__title {
+        padding-left: 11px;
+    }
+
+    .conditions__list {
+        margin: 16px 0;
+        padding-left: 11px;
+    }
+
+    .conditions-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .conditions-item:last-child {
+        border-bottom: 1px solid #E0E1E6;
+    }
+}

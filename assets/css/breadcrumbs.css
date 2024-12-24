@@ -1,0 +1,55 @@
+.breadcrumbs {
+    position: relative;
+}
+
+.breadcrumbs__list {
+    position: absolute;
+    top: 16px;
+
+    display: flex;
+    gap: 8px;
+    
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+
+    z-index: 100;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: .5;
+}
+
+.breadcrumbs__item::after {
+    content: url(/assets/img/icons/Arrow.svg);
+    display: flex;
+    width: 16px;
+    height: 16px;
+}
+
+.breadcrumbs__item:last-child::after {
+    content: '';
+}
+
+.breadcrumbs__item--active {
+    opacity: 1;
+}
+
+@media (max-width: 1000px) {
+    .breadcrumbs {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    .breadcrumbs {
+        display: flex;
+    }
+
+    .breadcrumbs__list {
+        z-index: 100;
+    }
+}

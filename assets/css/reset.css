@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", serif;
+}
+
+body {
+    font-family: "IBM Plex Sans", serif;
+    color: #0D0D0D;
+    position: relative;
+    overflow-x: hidden;
+    background: #F7F9FA;
+}
+
+img {
+    user-select: none;
+}
+
+input[type="button"], button, a {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
