@@ -59,7 +59,7 @@
 }
 
 .conditions__more-link::after {
-    content: url(/assets/img/icons/Arrow-right-purple.svg);
+    content: url('../img/icons/Arrow-right-purple.svg');
     display: flex;
     width: 24px;
     height: 24px;

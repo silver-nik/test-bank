@@ -193,7 +193,7 @@
 }
 
 .offer__more-link::after {
-    content: url(/assets/img/icons/Arrow-right.svg);
+    content: url('../img/icons/Arrow-right.svg');
     display: flex;
     width: 18px;
     height: 18px;
@@ -429,7 +429,7 @@
     }
 
     .catalog__info::after {
-        content: url(/assets/img/icons/Question.svg);
+        content: url('../img/icons/Question.svg');
         display: flex;
         width: 45px;
         height: 36px;

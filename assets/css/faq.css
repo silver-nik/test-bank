@@ -19,7 +19,7 @@
 }
 
 .faq__title::before {
-    content: url(/assets/img/icons/Question.svg);
+    content: url('../img/icons/Question.svg');
     display: flex;
     width: 45px;
     height: 45px;
