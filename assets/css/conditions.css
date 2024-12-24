@@ -56,6 +56,7 @@
     align-items: center;
     gap: 16px;
     justify-self: flex-end;
+    justify-content: flex-end;
 }
 
 .conditions__more-link::after {
