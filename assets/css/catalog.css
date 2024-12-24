@@ -194,6 +194,7 @@
 
 .offer__more-link::after {
     content: url('../img/icons/Arrow-right.svg');
+    
     display: flex;
     width: 18px;
     height: 18px;

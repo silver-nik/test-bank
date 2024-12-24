@@ -25,6 +25,7 @@
 
 .breadcrumbs__item::after {
     content: url('../img/icons/Arrow.svg');
+    
     display: flex;
     width: 16px;
     height: 16px;

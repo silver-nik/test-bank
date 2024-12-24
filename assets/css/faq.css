@@ -20,6 +20,7 @@
 
 .faq__title::before {
     content: url('../img/icons/Question.svg');
+    
     display: flex;
     width: 45px;
     height: 45px;
