@@ -219,12 +219,31 @@
         background: #FFFFFF;
         border-radius: 16px;
         display: flex;
-        align-items: center;
         justify-content: space-between;
 
         font-size: 17px;
         font-weight: 500;
         line-height: 22.1px;
+
+        flex-direction: column;
+    }
+
+    .submenu-item__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 22.1px;
+    }
+
+    .submenu-item__list {
+        padding-top: 16px;
+        display: none;
+    }
+
+    .submenu__top-item.active .submenu-item__list {
+        display: flex;
     }
 
     .submenu__wrapper {

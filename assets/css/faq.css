@@ -20,7 +20,7 @@
 
 .faq__title::before {
     content: url('../img/icons/Question.svg');
-    
+
     display: flex;
     width: 45px;
     height: 45px;
@@ -40,6 +40,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+
+    cursor: pointer;
+}
+
+.faq-item__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-item__value {
+    display: none;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.faq-item.active .faq-item__value {
+    display: flex;
 }
 
 .faq-item__title {
